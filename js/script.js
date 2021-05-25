@@ -1,34 +1,32 @@
-// названиеФункция()
-function Profile(name) {
-    console.log("Функция вызвалась");
-    alert("Привет! " + name)
-}
+// Условия
 
-// Вывод в консоль
-// console.log("JS");
+// Строка
+// Числа
+// Массивы
+// Boolean (bool) - true / false
 
-// Переменные
-// строкые: "текст" 
+// При преобразовании в тип bool:
+// Пустая строка "" - false, " " - true
+// Число 0  - false, остальные числа - true
 
-// числовые: 
-// целые числа: 45
-// Не целые числа: 37.8
+// && - логическое И
+// true && true = true
+// Всё остальное = false
 
-// Масивые: [10, "Ivan", 10.8, 10.5];
+// || - логическое ИЛИ
+// false || false = false
+// Всё остальное = true
 
-// camelCase
-let countDialog = 10; // Её можем менять в коде
-const pi = 3.1415;// Её вкоде менять не можем
+let bl = 7
+let bl2 = 3
+let bl3 = 5
+let bl4 = 9
 
-
-// countDialog = countDialog + 5;
-console.log(countDialog);
-
-//alert()
-let Na = "Артём"
-let Sa = 'Саша'
-Profile(Na) // Вызов функции
-Profile(Sa)
+// if ((bl > bl2) && (bl3 > bl4)) {
+//     console.log("Строка 4")
+// } else {
+//     console.log("Строка 6")
+// }
 
 
 
