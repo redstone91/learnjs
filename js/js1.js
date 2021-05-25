@@ -11,7 +11,7 @@ function Profile(num) {
     alert(num * 25)
 }
 
-Profile(10)
+Profile(25)
 
 
 //https://github.com/redstone91/learnjs.git
