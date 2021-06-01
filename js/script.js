@@ -120,6 +120,9 @@
 //     console.log("bad")
 // }
 
+
+
+
 // от 21 вкл до 50 вкл, то вывести js
 // от 50 не вкл до 75 вкл
 
@@ -140,15 +143,62 @@
 //     console.log("error")
 // }
 
-let num1 = 5;
-let num2 = 5;
-let num3 = 5;
-if (num1 > num2 && num1 > num3) {
-    console.log(num1)
-}
-else if (num2 > num1 && num2 > num3) {
-    console.log(num2)
-}
-else {
-    console.log(num3)
-}
+// let num1 = 5;
+// let num2 = 5;
+// let num3 = 5;
+// if (num1 > num2 && num1 > num3) {
+//     console.log(num1)
+// }
+// else if (num2 > num1 && num2 > num3) {
+//     console.log(num2)
+// }
+// else {
+//     console.log(num3)
+// }
+
+
+// let first = prompt("введите число");
+// let second = prompt("число")
+// if (first < second) {
+//     console.log(first)
+// }
+
+// else if (first == second) {
+//     console.log(first)
+// }
+// else {
+//     console.log(second)
+// }
+
+
+
+// let second = prompt("число");
+// if (second >= 100 && second < 501) {
+//     console.log("попали")
+// }
+// else if (second >= 501 && second <= 1000) {
+//     console.log("дали")
+// }
+// else {
+//     console.log("пропали")
+// }
+
+// num = 5
+// num2 = 3
+// console.log(num >= num2)
+
+// let num1 = prompt("число");
+// let num2 = prompt("число");
+// let num3 = prompt("число");
+// if (num1 < num2 && num1 < num3) {
+//     console.log(num1)
+// }
+// else if (num2 < num3 && num2 < num1) {
+//     console.log(num2)
+// }
+// else if (num3 < num2 && num3 < num1) {
+//     console.log(num3)
+// }
+// else {
+//     console.log("одинаково")
+// }
