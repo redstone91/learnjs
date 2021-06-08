@@ -1,43 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript</title>
 </head>
 
 <body>
+    <header>Шапка сайта</header>
+    <div class="wrapper">
 
-    <div class="content" id="text-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quibusdam.
-    </div>
-    <div class="content" id="text-1">
-        !!! Lorem ipsum. Quas, quibusdam.
-    </div>
-    <div class="content" id="text-3">
-        Lorem ipsum dolor sit amet. 111!
-    </div>
-    <div class="body">
-        <div class="body__text">
-            Lorem, ipsum dolor.
-        </div>
-        <div class="body__text">
-            Lorem!!!
-        </div>
-        <div class="body__text bodyTextik">
-            Lorem! Lorem ipsum dolor sit.
-        </div>
-        <div class="body__text">
-            Lorem!!! Lorem ipsum, dolor sit amet consectetur adipisicing.
-        </div>
-        <div class="body__text">
-            Lorem! Lorem ipsum dolor sit.
-        </div>
-    </div>
 
-    <script src="./js/script.js"></script>
+        <div class="content-top">
+            <h1 class="content-top__title">Lorem ipsum dolor</h1>
+            <ul>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+            </ul>
+        </div>
+        <div class="content__form">
+            <div class="content__inputs">
+                <input type="text" name="login" value="" id="input-text" class="content__input">
+                <button>Проверить</button>
+            </div>
+            <div class="content__inputs">
+                <input type="checkbox" name="dis" value="">
+                <button>Отключить</button><button>Включить</button>
+            </div>
+            <div class="content__inputs">
+                <span>Цвет фона:</span>
+                <select name="colors">
+                    <option value="tomato">tomato</option>
+                    <option value="lime">lime</option>
+                    <option value="dark">dark</option>
+                </select>
+            </div>
+        </div>
+        <div class="content-bottom">
+            <ul class="content-bottom__list">
+                <li>1 Lorem ipsum adipisicing sit</li>
+                <li>2 Lorem ipsum consectetur sit</li>
+                <li>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat.</li>
+                <li>4 Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>5 Lorem ipsum dolor amet</li>
+                <li>6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque!</li>
+                <li>7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, corrupti.</li>
+                <li>8 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta.</li>
+                <li>9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident animi, hic quis pariatur culpa
+                    deleniti?</li>
+                <li>10 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam amet reprehenderit officia.
+                </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+    </div>
+    <footer>Подвал сайта</footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

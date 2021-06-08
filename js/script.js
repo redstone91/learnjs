@@ -1,25 +1,67 @@
-// 
+// Обратиться к шапке сайта и дать ей другой задний фон
 
-let bodyElement = document.querySelector('.body');
-bodyElement.style.background = "lime";
+let headerElement = document.querySelector('header');
+headerElement.style.background = "green";
 
-let bodyTextElements = document.querySelectorAll('.body__text');
+// Обратиться content-bottom__list и дать ему границу
+// Скруглим границы на 30 пикселей
+let contentBottomListElement = document.querySelector('.content-bottom__list');
+// 1 вариант
 
-// // console.log(bodyTextElements.length);
-// bodyTextElements[0].style.color = "blue";
-// bodyTextElements[1].style.color = "blue";
-// bodyTextElements[2].style.color = "blue";
-// bodyTextElements[3].style.color = "blue";
+contentBottomListElement.style.border = "1px solid #000";
+contentBottomListElement.style.borderRadius = "20px";
+// 2 вариант
+contentBottomListElement.style.cssText = `
+border: 1px solid #000;
+border-radius: 20px;
+`;
 
-// Вывести в консоль 5 раз какой-то текст
-for (index = 0; index < bodyTextElements.length; index++) {
-    if (index == 2) {
-        bodyTextElements[index].style.color = "red";
+// Обратиться к 7 тегу li и поменять размер шрифта
+// let liElements = contentBottomListElement.querySelectorAll('li'); // будет искать ли внутри класса .content-bottom__list
+// liElements[6].style.cssText = `
+// font-size: 30px;
+// `;
+
+
+// Обратиться ко всем li и дать рамку + скругление
+// а 6 элементу помимо этих стилей добавить задний фон жёлтого цвета
+let liElements = contentBottomListElement.querySelectorAll('li'); // будет искать ли внутри класса .content-bottom__list
+for (let index = 0; index < liElements.length; index++) {
+    if (index == 5) {
+        liElements[index].style.cssText = `
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 10px;
+        background: yellow;
+        
+    `;
     } else {
-        bodyTextElements[index].style.color = "blue";
+        liElements[index].style.cssText = `
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 10px
+    `;
     }
-
 }
+
+// if (){}
+// else if (){}
+// else if (){}
+// else if (){}
+// else{}
+
+
+// let inputTextElement = document.getElementById('input-text') // Элемент
+// console.log(inputTextElement);
+// let inputTextElements = document.getElementsByClassName('content__input') // Массив
+// console.log(inputTextElements);
+
+
+
+
+
+
+
 
 
 
