@@ -1,40 +1,65 @@
-// Обратиться к шапке сайта и дать ей другой задний фон
+// HomeWork
+// let contentBottomElement = document.querySelector('.content-bottom');
+// console.log(contentBottomElement);
+// let textElement = contentBottomElement.querySelector('.text');
 
-let headerElement = document.querySelector('header');
-headerElement.style.background = "green";
+// for (let index = 1; index < 8; index++) {
+//     console.log("BubleGum");
 
-// Обратиться content-bottom__list и дать ему границу
-// Скруглим границы на 30 пикселей
-let contentBottomListElement = document.querySelector('.content-bottom__list');
-// 1 вариант
-
-contentBottomListElement.style.border = "1px solid #000";
-contentBottomListElement.style.borderRadius = "20px";
-// 2 вариант
-contentBottomListElement.style.cssText = `
-border: 1px solid #000;
-border-radius: 20px;
-`;
-
-//querySelector - найди элемент
-
-// Где искать? - document. //  contentFormElement.
-// Что искать? - ('.content__form') // 
+// }
 
 
-let contentFormElement = document.querySelector('.content__form');
-console.log(contentFormElement);
-let selectColorElement = contentFormElement.querySelector('select');
-console.log(selectColorElement);
-let selectColorOptionElements = selectColorElement.querySelectorAll('option');
-console.log(selectColorOptionElements)
+// for (let index = 0; index < 10; index++) {
+//     console.log("Relax");
+//     if (index == 2 || index == 6) {
+//         console.log("Boom");
+//     }
 
-console.log(selectColorOptionElements[2].value)
-let bodyElement = document.querySelector('body');
+// }
+
+// let arr = [25, 30.5, 40, 50, "ivan"];
+// for (let index = 0; index < 4; index++) {
+//     console.log(arr[index]);
+
+// }
 
 
-for (let index = 0; index < selectColorOptionElements.length; index++) {
-    if (selectColorOptionElements[index].selected == true) {
-        bodyElement.style.backgroundColor = selectColorOptionElements[index].value;
-    }
-}
+// Обратиться к списку с классом content-bottom__list 
+// Вывести в терминал все элменты этого списка
+// Покрасить все элементы в синий цвет, только 1 и последний элемент - в красный
+
+// let contentBottomListElement = document.querySelector('.content-bottom__list');
+// let liElements = contentBottomListElement.querySelectorAll('li');
+// for (let index = 0; index < liElements.length; index++) {
+//     console.log(liElements[index]);
+//     if (index == 0 || index == liElements.length - 1) {
+//         liElements[index].style.color = "red";
+//     } else {
+//         liElements[index].style.color = "blue";
+//     }
+// }
+// let contentFormElement = document.querySelector('.content__form');
+
+
+// let btn1Element = contentFormElement.querySelector('#btn-1');
+// console.log(btn1Element);
+
+// let inputTextElement = contentFormElement.querySelector('#input-text');
+// console.log(inputTextElement);
+
+
+// // Если текстовое поле пустое, то вывести alert("введите текст")
+// function btnclk() {
+//     if (inputTextElement.value == "") {
+//         alert("text")
+//     } else {
+//         alert("Всё ок");
+//     }
+// }
+
+
+
+
+
+
+
