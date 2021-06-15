@@ -60,6 +60,29 @@
 
 
 
+// for (let index = 0; index < 12; index++) {
+//     console.log("Random Text");
+// }
 
+// 0 1 2 3 4 // 0 1 2 3 4 5
+// for (let index = 0; index < 5; index++) {
+//     console.log("Last" + index);
+//     if (index == 0 || index == 4)
+//         console.log("hit");
 
+// }
+
+// let contentTopElement = document.querySelector('.content-top');
+// let liElements = contentTopElement.querySelectorAll('li');
+// for (let index = 0; index < liElements.length; index++) {
+//     console.log(liElements[index]);
+
+// }
+
+// let buttonElements = document.querySelectorAll('button');
+// for (let index = 0; index < buttonElements.length; index++) {
+//     console.log(buttonElements[index]);
+//     buttonElements[index].style.fontSize = "40px";
+
+}
 
