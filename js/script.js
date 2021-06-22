@@ -46,40 +46,91 @@ for (let index = 0; index < inputElements.length; index++) {
 //  Отобрать чекбоксы, которые нажаты (с галочкой) и выключить их все
 
 // Сделать, чтобы отключение всех чекбоксов происходило только по нажатию на кнопку "Сброс"
-let footerElement = document.querySelector('.footer');
-let inputFooterElements = footerElement.querySelectorAll('input');
+// let footerElement = document.querySelector('.footer');
+// let inputFooterElements = footerElement.querySelectorAll('input');
 
-function press() {
+// function press() {
 
 
-    for (let index = 0; index < inputFooterElements.length; index++) {
-        if (inputFooterElements[index].type == "checkbox" && inputFooterElements[index].checked == true) {
-            inputFooterElements[index].checked = false;
-        }
-    }
-}
+//     for (let index = 0; index < inputFooterElements.length; index++) {
+//         if (inputFooterElements[index].type == "checkbox" && inputFooterElements[index].checked == true) {
+//             inputFooterElements[index].checked = false;
+//         }
+//     }
+// }
 
-// 
-let boxesElement = document.querySelector('.boxes');
-let inputBoxesElements = boxesElement.querySelectorAll('input');
-let answer; // Если ответ неверный, то он 0
+// // 
+// let boxesElement = document.querySelector('.boxes');
+// let inputBoxesElements = boxesElement.querySelectorAll('input');
+// let answer; // Если ответ неверный, то он 0
 
-function pressbtn() {
-    for (let index = 0; index < inputBoxesElements.length; index++) {
-        if (inputBoxesElements[index].checked == true && inputBoxesElements[index].value == "6") {
-            answer = true;
+// function pressbtn() {
+//     for (let index = 0; index < inputBoxesElements.length; index++) {
+//         if (inputBoxesElements[index].checked == true && inputBoxesElements[index].value == "6") {
+//             answer = true;
 
-        }
-        else if (inputBoxesElements[index].checked == true) {
-            answer = false;
-        }
+//         }
+//         else if (inputBoxesElements[index].checked == true) {
+//             answer = false;
+//         }
 
-    }
+//     }
 
-    if (answer == true) {
-        alert("True")
-    } else {
-        alert("False")
-    }
+//     if (answer == true) {
+//         alert("True")
+//     } else {
+//         alert("False")
+//     }
 
-}
+// }
+
+
+// let footerElement = document.querySelector('.footer');
+// let inputFooterElements = footerElement.querySelectorAll('input');
+// console.log(inputFooterElements);
+
+// function press() {
+//     for (let index = 0; index < inputFooterElements.length; index++) {
+//         if (inputFooterElements[index].type == "checkbox" && inputFooterElements[index].checked == true) {
+//             inputFooterElements[index].checked = false;
+//         }
+//         else if (inputFooterElements[index].type == "checkbox" && inputFooterElements[index].checked == false) {
+//             inputFooterElements[index].checked = true;
+//         }
+//     }
+// }
+
+// let bodyElement = document.querySelector('body');
+// let contentFormElement = document.querySelector('.content__form');
+// let selectContenFormElement = contentFormElement.querySelector('select');
+// let optionElements = selectContenFormElement.querySelectorAll('option');
+
+
+// // for (let index = 0; index < optionElements.length; index++) {
+// //     if (optionElements[index].selected == true) {
+// //         bodyElement.style.backgroundColor = optionElements[index].value;
+// //     }
+// // }
+
+
+// function selected() {
+//     for (let index = 0; index < optionElements.length; index++) {
+//         if (optionElements[index].selected == true) {
+//             bodyElement.style.backgroundColor = optionElements[index].value;
+//         }
+//     }
+// }
+
+
+// let taskElement = document.querySelector('.task');
+// let inputTextElement = taskElement.querySelector('input');
+// function pressAns() {
+//     if (inputTextElement.value == 1939) {
+//         alert("правильно")
+//     }
+//     else {
+//         alert("ошибка")
+//     }
+// }
+
+

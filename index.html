@@ -38,11 +38,14 @@
                 <span>Цвет фона:</span>
                 <select name="colors" id="sel">
                     <option value="tomato">tomato</option>
-                    <option selected value="lime">lime</option>
-                    <option value="black">dark</option>
+                    <option selected value="#e5e5e5">gray</option>
+                    <option value="rgb(0, 0, 0)">dark</option>
                 </select>
+                <button onclick="selected()">Выбрать фон</button>
             </div>
         </div>
+
+
         <div class="content-bottom">
             <ul class="content-bottom__list">
                 <li>1 Lorem ipsum adipisicing sit</li>
@@ -99,6 +102,13 @@
             <input type="radio" value="8" name="ans"> 8<br>
 
             <button onclick="pressbtn()">Проверить</button>
+        </div>
+
+
+        <div class="task">
+            <p>В каком году началась вторая мировая?</p>
+            <input type="text" value="" name=" answer"><br>
+            <button onclick="pressAns()">Проверить</button>
         </div>
     </div>
     <footer>Подвал сайта</footer>
